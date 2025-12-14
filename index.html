@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Estrela - Vista sua história conosco</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#colecao">Coleção</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <section id="inicio" class="hero">
+      <div class="hero-wrapper active">
+        <div class="hero-content">
+          <h2>Vista sua história conosco</h2>
+          <p>
+            Descubra peças únicas que contam a sua história. Moda sustentável e
+            atemporal para todos os momentos da sua vida.
+          </p>
+          <button
+            class="btn-primary"
+            onclick="document.querySelector('#colecao').scrollIntoView({behavior: 'smooth'})"
+          >
+            Explorar Coleção
+          </button>
+        </div>
+        <div class="hero-image">
+          <img
+            src="img/FireShot Capture 003 - Loja Nova Estrela - Google Maps - [www.google.com].jpg"
+            alt="Nova Estrela"
+            class="placeholder-image"
+          />
+        </div>
+        <div class="carousel-indicators">
+          <div class="indicator active" data-slide="0"></div>
+          <div class="indicator" data-slide="1"></div>
+          <div class="indicator" data-slide="2"></div>
+        </div>
+      </div>
+      <div class="hero-wrapper">
+        <div class="hero-content">
+          <h2>Moda Sustentável</h2>
+          <p>
+            Peças feitas com materiais ecológicos e processos responsáveis. Cada
+            item é escolhido com cuidado para minimizar o impacto ambiental.
+          </p>
+          <button
+            class="btn-primary"
+            onclick="document.querySelector('#sobre').scrollIntoView({behavior: 'smooth'})"
+          >
+            Saiba Mais
+          </button>
+        </div>
+        <div class="hero-image">
+          <div class="placeholder-image">
+            <img
+              src="./img/FireShot Capture 007 - Loja Nova Estrela - Google Maps - [www.google.com].png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="carousel-indicators">
+          <div class="indicator active" data-slide="0"></div>
+          <div class="indicator" data-slide="1"></div>
+          <div class="indicator" data-slide="2"></div>
+        </div>
+      </div>
+      <div class="hero-wrapper">
+        <div class="hero-content">
+          <h2>Design Atemporal</h2>
+          <p>
+            Estilos clássicos que nunca saem de moda. Invista em peças versáteis
+            que acompanham você por anos.
+          </p>
+          <button
+            class="btn-primary"
+            onclick="document.querySelector('#colecao').scrollIntoView({behavior: 'smooth'})"
+          >
+            Ver Coleção
+          </button>
+        </div>
+        <div class="hero-image">
+          <div class="placeholder-image">
+            <img
+              src="./img/FireShot Capture 005 - Loja Nova Estrela - Google Maps - [www.google.com].png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="carousel-indicators">
+          <div class="indicator active" data-slide="0"></div>
+          <div class="indicator" data-slide="1"></div>
+          <div class="indicator" data-slide="2"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="about">
+      <div class="container">
+        <div class="about-content">
+          <h2>Nossa História</h2>
+          <p>
+            A Nova Estrela nasceu da paixão por criar roupas que vão além da
+            moda. Cada peça é cuidadosamente selecionada para refletir sua
+            personalidade e contar sua história única.
+          </p>
+          <p>
+            Desde 2020, trabalhamos com designers locais e materiais
+            sustentáveis para oferecer moda consciente e elegante.
+          </p>
+          <div class="stats">
+            <div class="stat">
+              <h3>500+</h3>
+              <p>Clientes Satisfeitos</p>
+            </div>
+            <div class="stat">
+              <h3>1000+</h3>
+              <p>Peças Vendidas</p>
+            </div>
+            <div class="stat">
+              <h3>50+</h3>
+              <p>Designers Parceiros</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="placeholder-image">
+            <img
+              src="./img/FireShot Capture 007 - Loja Nova Estrela - Google Maps - [www.google.com].png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="colecao" class="collection">
+      <div class="container">
+        <h2>Coleção Destaque</h2>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <div class="placeholder-image"></div>
+            </div>
+            <div class="product-info">
+              <h3>Vestido Floral</h3>
+              <p>R$ 0,00</p>
+              <button class="btn-secondary">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <div class="placeholder-image"></div>
+            </div>
+            <div class="product-info">
+              <h3>Blusa de Linho</h3>
+              <p>R$ 0,00</p>
+              <button class="btn-secondary">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <div class="placeholder-image"></div>
+            </div>
+            <div class="product-info">
+              <h3>Calça Alfaiataria</h3>
+              <p>R$ 0,00</p>
+              <button class="btn-secondary">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <div class="placeholder-image"></div>
+            </div>
+            <div class="product-info">
+              <h3>Saia Midi</h3>
+              <p>R$ 0,00</p>
+              <button class="btn-secondary">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <div class="placeholder-image"></div>
+            </div>
+            <div class="product-info">
+              <h3>Camisa Social</h3>
+              <p>R$ 0,00</p>
+              <button class="btn-secondary">Ver Detalhes</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <div class="placeholder-image"></div>
+            </div>
+            <div class="product-info">
+              <h3>Blazer Feminino</h3>
+              <p>R$ 0,00</p>
+              <button class="btn-secondary">Ver Detalhes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contact">
+      <div class="container">
+        <h2>Entre em Contato</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Visite Nossa Loja</h3>
+            <p>
+              R. Rio Trombetas, 739 jardim<br />Weissópolis, Pinhais - PR<br />CEP:
+              83322-280
+            </p>
+            <p>Telefone: 041987808408<br />Email: contato@novaestrela.com</p>
+            <div class="social-links">
+              <a
+                href="https://wa.me/041987808408"
+                class="social-link"
+                target="_blank"
+                ><img
+                  src="img/whatsapp_4494494.png"
+                  alt="WhatsApp"
+                  width="24"
+                  height="24"
+              /></a>
+              <a href="#" class="social-link"
+                ><img
+                  src="img/facebook-logo_2504792.png"
+                  alt="Facebook"
+                  width="24"
+                  height="24"
+              /></a>
+              <a href="#" class="social-link"
+                ><img
+                  src="img/social_15527900.png"
+                  alt="Instagram"
+                  width="24"
+                  height="24"
+              /></a>
+            </div>
+          </div>
+          <form class="contact-form">
+            <input type="text" placeholder="Seu Nome" required />
+            <input type="email" placeholder="Seu Email" required />
+            <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+            <button type="submit" class="btn-primary">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Nova Estrela. Todos os direitos reservados.</p>
+        <div class="footer-links">
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Uso</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+
+      // Hamburger menu toggle
+      const hamburger = document.querySelector(".hamburger");
+      const nav = document.querySelector(".nav");
+
+      hamburger.addEventListener("click", () => {
+        nav.classList.toggle("active");
+      });
+
+      // Close menu when clicking on a nav link (mobile)
+      document.querySelectorAll(".nav a").forEach((link) => {
+        link.addEventListener("click", () => {
+          nav.classList.remove("active");
+        });
+      });
+
+      // Simple form submission handler
+      document
+        .querySelector(".contact-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert("Obrigado pela mensagem! Entraremos em contato em breve.");
+          this.reset();
+        });
+
+      // Carousel functionality
+      let currentSlide = 0;
+      const slides = document.querySelectorAll(".hero-wrapper");
+      const totalSlides = slides.length;
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          if (i === index) {
+            slide.classList.add("active");
+          } else {
+            slide.classList.remove("active");
+          }
+        });
+      }
+
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        showSlide(currentSlide);
+      }
+
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        showSlide(currentSlide);
+      }
+
+      // Auto-play carousel
+      setInterval(nextSlide, 4000);
+
+      // Manual navigation
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft") {
+          prevSlide();
+        } else if (e.key === "ArrowRight") {
+          nextSlide();
+        }
+      });
+
+      // Initialize first slide
+      showSlide(currentSlide);
+
+      // Indicator navigation
+      slides.forEach((slide, slideIndex) => {
+        const indicators = slide.querySelectorAll('.indicator');
+        indicators.forEach((indicator, indicatorIndex) => {
+          indicator.addEventListener('click', () => {
+            currentSlide = indicatorIndex;
+            showSlide(currentSlide);
+          });
+        });
+      });
+
+      function updateIndicators() {
+        slides.forEach((slide, slideIndex) => {
+          const indicators = slide.querySelectorAll('.indicator');
+          indicators.forEach((indicator, indicatorIndex) => {
+            if (indicatorIndex === currentSlide) {
+              indicator.classList.add('active');
+            } else {
+              indicator.classList.remove('active');
+            }
+          });
+        });
+      }
+
+      // Update indicators on slide change
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          if (i === index) {
+            slide.classList.add('active');
+          } else {
+            slide.classList.remove('active');
+          }
+        });
+        updateIndicators();
+      }
+    </script>
+  </body>
+</html>
