@@ -702,7 +702,16 @@ body {
   .hero-content h2 {
     font-size: 2.5rem;
   }
-  
+
+  .hero-image {
+    display: none;
+  }
+
+  .hero-content {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
 
   .about .container,
   .contact-content {
